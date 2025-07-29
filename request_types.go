@@ -160,6 +160,7 @@ type postTransactionRequestBody struct {
 	Location                *Location              `json:"location,omitempty"`
 	DeviceOs                string                 `json:"device_os,omitempty"`
 	Coupon                  *CouponType            `json:"coupon,omitempty"`
+	StoreID                 string                 `json:"store_id,omitempty"`
 	InstallationID          *string                `json:"installation_id,omitempty"`
 	PaymentMethodIdentifier string                 `json:"payment_method_identifier,omitempty"`
 	Type                    transactionType        `json:"type"`

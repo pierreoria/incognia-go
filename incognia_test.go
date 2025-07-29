@@ -463,6 +463,7 @@ var (
 		InstallationID: &installationId,
 		AccountID:      "account-id",
 		ExternalID:     "external-id",
+		StoreID:        "store-id",
 		PolicyID:       "policy-id",
 		Eval:           &shouldEval,
 	}
@@ -470,6 +471,7 @@ var (
 		InstallationID: &installationId,
 		AccountID:      "account-id",
 		ExternalID:     "external-id",
+		StoreID:        "store-id",
 		PolicyID:       "policy-id",
 		Eval:           &shouldNotEval,
 	}
@@ -477,6 +479,7 @@ var (
 		InstallationID: &installationId,
 		AccountID:      "account-id",
 		ExternalID:     "external-id",
+		StoreID:        "store-id",
 		PolicyID:       "policy-id",
 		Type:           paymentType,
 	}
